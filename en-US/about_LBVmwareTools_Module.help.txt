@@ -1,0 +1,60 @@
+TOPIC
+    about_LBVmwareTools_Module
+
+SHORT DESCRIPTION
+    A PowerShell module with PowerShell cmdlets that use the PowerCLI snapin to do various tasks in a vmware vsphere 4+ environment.
+
+LONG DESCRIPTION   
+    The following CmdLets are loaded in the current session when you import the module:
+
+	Set-WindowsPatchingDefaults
+	---------------------------
+	Run this first.
+
+	This cmdlet is used to set several defaults that are used by the other cmdlets and
+	is needed for them to function. The only parameters that must be set for your 
+	environment are the -vCenter and -UpdateServerURL. The rest are path related and
+	will default to the USERPROFILE.
+
+	The other parameters for paths that have defaults can be used to change the log,
+	hostlist and results folder and file locations.
+
+	This cmdlet can be ran after the module is imported with a shortcut or in your PowerShell
+	profile script.
+
+	EXAMPLE:
+	$ENV:USERPROFILE\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+
+	# LOAD LBVmwareTools MODULE
+	$ModuleList = Get-Module -ListAvailable | Select -ExpandProperty Name
+	If ($ModuleList -contains 'LBVmwareTools') {
+	     Import-Module –Name LBVmwareTools
+	}
+	
+	If ($ModuleList) {
+	     Remove-Variable -Name ModuleList
+	}
+	
+	# SET LB Vmware Tools DEFAULTS
+	If ((Get-Module | Select-Object -ExpandProperty Name | Out-String) -match "LBVmwareTools") {
+	     Set-LBVmwareToolsDefaults -vCenter "vcenter01.domain.com" -Quiet
+	}
+
+
+	Set-LBVmwareToolsDefaults
+	-------------------------
+	Use this cmdlet first to set the defaults needed for all the module scripts.
+
+
+	Add-NFSDS
+	---------
+	Add a NFS Datastore to multiple Vmware hosts.
+
+
+
+
+SEE ALSO
+    about_Modules
+    Get-Module
+    Import-Module
+    Remove-Module
