@@ -1837,7 +1837,7 @@ Function Get-ExitCodeDescription {
 <# Author
 	Levon Becker
 	powershell.guru@bonusbits.com
-	http://wiki.bonusbits.com
+	http://www.bonusbits.com
 #>
 
 <# Dependents

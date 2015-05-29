@@ -34,7 +34,7 @@
 .PARAMETER retention
 	Number of days to retain zip files. Meaning it will remove zip files in the filepath that are older than the days given.
 .LINK
-	http://wiki.bonusbits.com/wiki/How_to_Zip_SQL_Backup_Files_with_Scheduled_Task_and_PowerShell_Script
+	http://www.bonusbits.com/wiki/HowTo:Zip_SQL_Backup_Files_with_Scheduled_Task_and_PowerShell_Script
 #>
 
 #endregion Help

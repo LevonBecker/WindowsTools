@@ -43,7 +43,10 @@ Function Set-WindowsToolsDefaults {
 .PARAMETER Quiet
 	If this switch is used the results will not be displayed.
 .LINK
-	http://wiki.bonusbits.com:PSScript:Set-WindowsToolsDefaults
+	http://www.bonusbits.com/wiki/HowTo:Use_Windows_Tools_PowerShell_Module
+	http://www.bonusbits.com/wiki/HowTo:Enable_.NET_4_Runtime_for_PowerShell_and_Other_Applications
+	http://www.bonusbits.com/wiki/HowTo:Setup_PowerShell_Module
+	http://www.bonusbits.com/wiki/HowTo:Enable_Remote_Signed_PowerShell_Scripts
 #>
 
 #endregion Help

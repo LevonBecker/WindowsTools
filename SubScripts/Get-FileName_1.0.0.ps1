@@ -22,8 +22,6 @@ Function Get-FileName {
 	This parameter sets the file type to look for.
 .PARAMETER PubPSScripts
 	Public PowerShell Sub Scripts Path.
-.LINK
-	http://wiki.bonusbits.com:PSScript:Get-FileName
 #>
 
 #endregion Help
@@ -82,7 +80,7 @@ Function Get-FileName {
 <# Author
 	Levon Becker
 	PowerShell.Guru@BonusBits.com
-	http://wiki.bonusbits.com
+	http://www.bonusbits.com
 #>
 
 <# Dependents

@@ -205,7 +205,7 @@ Function Restart-Host {
 <# Author
 	Levon Becker
 	PowerShell.Guru@BonusBits.com
-	http://wiki.bonusbits.com
+	http://www.bonusbits.com
 #>
 
 <# Parent Script Dependents

@@ -32,8 +32,6 @@ Function Move-ADComputerOU {
 	Full LDAP syntax without spaces for the target location in AD
 .PARAMETER KeepModLoaded
 	Switch to keep the ActiveDirectory Module loaded after completion.
-.LINK
-	http://wiki.bonusbits.com:PSScript:Set-ADComputerOU
 #>
 
 #endregion Help
@@ -170,7 +168,7 @@ Function Move-ADComputerOU {
 <# Author
 	Levon Becker
 	powershell.guru@bonusbits.com
-	http://wiki.bonusbits.com
+	http://www.bonusbits.com
 #>
 
 <# Dependents

@@ -45,7 +45,10 @@ Function Switch-Content {
 	Options are ASCII, Unicode, or UTF8
 	Leave blank and you will be prompted to make a selection.
 .LINK
-	http://wiki.bonusbits.com/main/PSScript:Switch-Content
+	http://www.bonusbits.com/wiki/HowTo:Use_Windows_Tools_PowerShell_Module
+	http://www.bonusbits.com/wiki/HowTo:Enable_.NET_4_Runtime_for_PowerShell_and_Other_Applications
+	http://www.bonusbits.com/wiki/HowTo:Setup_PowerShell_Module
+	http://www.bonusbits.com/wiki/HowTo:Enable_Remote_Signed_PowerShell_Scripts
 	http://blogs.technet.com/b/heyscriptingguy/archive/2011/06/30/use-parameter-sets-to-simplify-powershell-commands.aspx
 #>
 
