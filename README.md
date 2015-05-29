@@ -1,6 +1,6 @@
 # Windows Tools PowerShell Module
 
-[Module Info](http://www.bonusbits.com/main/Automation:Windows_Tools_PowerShell_Module)
+[Wiki](http://www.bonusbits.com/wiki/HowTo:Use_Windows_Tools_PowerShell_Module)
 
 ## Setup Summary
 
@@ -20,14 +20,13 @@ Add code to PowerShell user profile script to Import and run Set-WindowsToolsDef
 
 #### EXAMPLE
 
-
 **$ENV:USERPROFILE\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1**
 
 ```powershell
 # LOAD WINDOWS TOOLS MODULE
 $ModuleList = Get-Module -ListAvailable | Select -ExpandProperty Name
 If ($ModuleList -contains 'WindowsTools') {
-	Import-Module –Name WindowsTools
+	Import-Module ï¿½Name WindowsTools
 }
 
 # REMOVE TEMP MODULE LIST
@@ -44,8 +43,4 @@ If ((Get-Module | Select-Object -ExpandProperty Name | Out-String) -match "Windo
 
 ## Disclaimer
 
-Use at your own risk. I am not responsible for any negative impacts caused by using this module or following my instructions.
-
-I am sharing this for educational purposes. 
-
-I hope it helps and you enjoy my hard work. :)
+Use at your own risk.
